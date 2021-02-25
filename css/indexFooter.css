@@ -1,0 +1,167 @@
+#wrap{
+	width: 1200px;height: 100%;margin: 0 auto;
+}
+.footer{
+	background-color: #f5f5f5;
+}
+.footer-top{
+	height: 100px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.footer-top ul{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 19px 0;
+}
+.footer-top ul li{
+	float: left;
+	width: 200px;
+}
+.footer-top ul li a{
+	display: block;
+    width: 128px;
+    height: 62px;
+    padding-left: 72px;
+    line-height: 62px;
+    color: #444;
+    font-weight: bold;
+	font-size: 18px;
+	transition: all .8s;
+}
+.footer-top ul li:nth-of-type(1) a{
+	background: url(../imgs/logo.png) 0 0 no-repeat;
+}
+.footer-top ul li:nth-of-type(2) a{
+	background: url(../imgs/logo.png) 0 -162px no-repeat;
+}
+.footer-top ul li:nth-of-type(3) a{
+	background: url(../imgs/logo.png) 0 -242px no-repeat;
+}
+.footer-top ul li:nth-of-type(4) a{
+	background: url(../imgs/logo.png) 0 -82px no-repeat;
+}
+.footer-top ul li:nth-of-type(5) a{
+	background: url(../imgs/logo.png) 0 -322px no-repeat;
+}
+.footer-top ul li:nth-of-type(6) a{
+	background: url(../imgs/logo.png) 0 -402px no-repeat;
+}
+.footer-top ul li:hover a{
+	color: #ed4044;
+    transform: translateY(-5px);
+}
+.footer-cen{
+	padding: 25px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.tel{
+	float: left;
+	margin-right: 40px;
+}
+.tel img{
+	float: left;
+	margin-top: 5px;
+}
+.phone-number{
+	float: left;
+	margin-left: 30px;
+}
+.phone-number h4,.footer-cen dl dt{
+	font-weight: bold;
+	color: #666;
+	font-size: 14px;
+}
+.phone-number p:nth-of-type(1),.phone-number p:nth-of-type(2){
+	margin-top: 15px;
+	color: #666;
+	font-size: 20px;
+}
+.phone-number p:nth-of-type(1) span{
+	margin-left: 5px;
+	font-size: 12px;
+	color: #666;
+}
+.phone-number p:nth-of-type(3){
+	margin-top: 15px;
+	color: #444;
+	font-size: 12px;
+}
+.footer-cen dl{
+	margin-right: 100px;
+	float: left;
+}
+.footer-cen dl:nth-of-type(1){
+	margin-left: 40px;
+}
+.footer-cen dl dd{
+	margin-top: 5px;
+	color: #444;
+	font-size: 14px;
+}
+.footer-cen dl dd:nth-of-type(1){
+	margin-top: 20px;
+}
+.footer-cen dl dd a:hover{
+	color: #ed4044;
+    text-decoration: underline;
+}
+.app-code{
+	float: left;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+.wechart-code{
+	float: right;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+.app-code p,.wechart-code p{
+	text-align: center;
+	font-size: 12px;
+}
+.app-code a img,.wechart-code a img{
+	margin-top: 10px;
+}
+.links{
+	padding-top: 20px;
+	height: 20px;
+	text-align: center;
+}
+.links-con{
+	
+}
+.links a{
+	display: inline-block;
+	margin: 0 15px 10px 0;
+	color: #999;
+	font-size: 12px;
+}
+.links a img{
+	width: 18px;
+    vertical-align: middle;
+	margin-bottom: 4px;
+	margin-right: 2px;
+}
+.links a:hover{
+	color: #ed4044;
+    text-decoration: underline;
+}
+.achievement{
+	margin-top: 20px;
+	text-align: center;
+}
+.achievement a,.achievement span{
+	margin-right: 3px;
+}
+.copy{
+	padding: 20px 0 40px;
+	font-size: 12px;
+	text-align: center;
+}
+.copy a{
+	margin-right: 4px;
+}
+.copy a:hover{
+	color: #ed4044;
+    text-decoration: underline;
+}

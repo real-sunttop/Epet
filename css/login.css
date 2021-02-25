@@ -1,0 +1,129 @@
+#wrap{
+	width: 1200px;height: 100%;margin: 0 auto;
+}
+.login-header{
+	/* background: rgba(0,0,0,.05); */
+	background: #fff;
+	border-bottom: 2px solid #999;
+}
+.login-header img{
+	width: 138px;
+	height: 66px;
+	float: left;
+}
+.login-header p{
+	width: 100px;
+	text-align: center;
+	border-left: 1px solid rgba(0,0,0,.2);
+	line-height: 33px;
+	/* font-weight: bold; */
+	color: #333;
+	font-size: 16px;
+	float: left;
+	margin-top: 22px;
+}
+.login-cont{
+	background-color: rgba(0,0,0,.05);
+	overflow: hidden;
+}
+.jumbotron{
+	width: 422px;
+	height: 430px;
+	background: #fff;
+	border: 1px solid #f5f5f5;
+	box-shadow: 3px 3px 8px rgba(0,0,0,.5);
+	border-radius: 20px;
+	margin: 50px auto 50px;
+}
+.jumbotron h2{
+	/* margin: 0 0 10px 10px; */
+	text-align: center;
+	color: #000000;
+}
+.username,.pwd{
+	margin: 20px auto;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+	padding-left: 15px;
+}
+.user-img,.pwd-img{
+	display: inline-block;
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+    border-right: 1px solid #f4f4f4;
+	padding-right: 10px;
+}
+.user-img{
+	background: url(../imgs/newico.png) 0 -60px no-repeat
+}
+.it1{
+	width: 239px;
+	height: 16px;
+	padding: 0 15px;
+}
+.pwd-img{
+	background: url(../imgs/newico.png) 0 -40px no-repeat;
+}
+.login-btn{
+	width: 300px;
+	margin: 0 auto;
+	background: #999;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 30px;
+	cursor: pointer;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.login-other{
+    /* height: 49px; */
+	width: 322px;
+	margin: 45px auto 0;
+}
+.login-style a{
+	display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+.login-style a:nth-of-type(1){
+	background: url(../imgs/newico2.png) 0 0 no-repeat;
+}
+.login-style a:nth-of-type(2){
+	background: url(../imgs/newico2.png) -43px 0 no-repeat;
+}
+.login-style a:nth-of-type(3){
+	background: url(../imgs/newico2.png) -87px 0 no-repeat;
+}
+#fast-zhuce{
+	display: inline-block;
+	line-height: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	float: right;
+}
+.end2{
+	background-color: #fff;
+	padding: 30px 0 70px;
+}
+#end-list,.end2 p{
+	text-align: center;
+}
+#end-list a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #999;
+}
+#end-list a:hover{
+	color: #248DCC;
+}
+.end2 p{
+	font-size: 12px;
+	margin-top: 5px;
+	color: #999;
+}

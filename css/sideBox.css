@@ -1,0 +1,292 @@
+.rtbar {
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	width: 35px;
+	height: 100%;
+	background-color: #444;
+}
+
+.u1 {
+	position: relative;
+	top: 40px;
+}
+
+.u1 li {
+	position: relative;
+}
+
+.box1,.box3 {
+	background: #fff;
+	width: 292px;
+	position: absolute;
+	right: 35px;
+	top: 0;
+	padding: 0 10px 10px 21px;
+	border: 1px solid #ccc;
+	display: none;
+}
+
+.box1 p,.box3 p {
+	text-align: center;
+	padding: 50px 0;
+	font-size: 12px;
+}
+
+.box1 p a,.box3 p a {
+	color: red;
+	text-decoration: underline;
+}
+
+.img1 {
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin: 26px 0;
+	background: url(../imgs/bar_new.png) 0 -235px no-repeat;
+}
+
+.cricle {
+	width: 10px;
+	height: 10px;
+	background: url(../imgs/bar_new.png) -6px -600px no-repeat;
+	position: absolute;
+	top: 0;
+	right: 2px;
+	display: none;
+}
+
+.img2 i {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../imgs/bar_new.png) 0 -270px no-repeat;
+}
+
+.img2 p,.img3 p {
+	text-align: center;
+	margin: 0 auto;
+	width: 19px;
+	color: #a6a6a6;
+	font-size: 12px;
+
+}
+
+.img2 p span,.img3 p span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 50%;
+	background-color: #a6a6a6;
+	color: #444;
+}
+
+.img2,.img3 {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.img3 i {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../imgs/bar_new.png) 2px -617px no-repeat;
+}
+
+.img4 {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../imgs/bar_new.png) 0 -305px no-repeat;
+}
+
+.img5 {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../imgs/bar_new.png) -1px -693px no-repeat;
+}
+
+/* 移入效果js */
+.u1 li:hover .box1,.u1 li:hover .box3{
+	display: block;
+}
+.u1 li:hover .img1 {
+	background: url(../imgs/bar_newhover.png) 0 -235px no-repeat;
+	background-color: #555;
+}
+
+.u1 li:hover .img2 i {
+	background: url(../imgs/bar_newhover.png) 0 -270px no-repeat;
+}
+
+.u1 li:hover .img2 p {
+	color: #fff;
+}
+.u1 li:hover .img2 p span{
+	background: #fff;
+	color: #444;
+}
+
+.u1 li:hover .img2 {
+	background-color: #555;
+}
+.u1 li:hover .img3 i {
+	background: url(../imgs/bar_newhover.png) 2px -617px no-repeat;
+}
+
+.u1 li:hover .img3 p {
+	color: #fff;
+}
+.u1 li:hover .img3 p span{
+	background: #fff;
+	color: #444;
+}
+
+.u1 li:hover .img3 {
+	background-color: #555;
+}
+
+.u1 li:hover .img4 {
+	background: url(../imgs/bar_newhover.png) 0px -305px no-repeat;
+	background-color: #555;
+}
+
+.u1 li:hover .img5 {
+	background: url(../imgs/bar_newhover.png) -1px -693px no-repeat;
+	background-color: #555;
+}
+/* 页面高度缩小到一定程度display:none */
+.u2 {
+	position: absolute;
+	bottom: 40px;
+}
+.u2 li{
+	position: relative;
+}
+
+.b1,.b2,.b3,.b4{
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+
+.b1 {
+	background: url(../imgs/bar_new.png) 0 -410px no-repeat;
+}
+
+.b1 span {
+	display: block;
+	width: 187px;
+	height: 231px;
+	bottom: -12px;
+	right: 28px;
+	position: absolute;
+	background: url(../imgs/app_code.png) no-repeat;
+	display: none;
+}
+
+.b2 {
+	background: url(../imgs/bar_new.png) 0 -720px no-repeat;
+}
+
+.b2 span {
+	display: block;
+	width: 188px;
+	height: 228px;
+	bottom: 0px;
+	right: 35px;
+	position: absolute;
+	background: url(../imgs/weixin1.jpg) no-repeat;
+	border: 1px #ddd solid;
+	display: none;
+}
+.b3 {
+	background: url(../imgs/bar_new.png) 0 -753px no-repeat;
+}
+
+.b3 span {
+	display: block;
+	width: 188px;
+	height: 129px;
+	bottom: 0px;
+	right: 35px;
+	position: absolute;
+	background: url(../imgs/weibo.jpg) no-repeat;
+	border: 1px #ddd solid;
+	display: none;
+}
+.b4{
+	background: url(../imgs/bar_new.png) 0 -521px no-repeat;
+}
+/* 淡入淡出js */
+.back{
+	height: 35px;
+    width: 90px;
+    line-height: 35px;
+    background-color: #FFA200;
+    position: absolute;
+    top: 0;
+	right: 53px;
+    text-align: center;
+    color: #FFF;
+    padding-right: 10px;
+	font-size: 12px;
+	/* opacity: 0; */
+	display: none;
+}
+.back b{
+	display: block;
+    right: -8px;
+    top: 10px;
+    color: #FFA200;
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    position: absolute;
+}
+.u2 li:hover .b1 {
+	background: url(../imgs/bar_newhover.png) 0 -410px no-repeat;
+	background-color: #555;
+}
+.u2 li:hover .b1 span,.u2 li:hover .b2 span,.u2 li:hover .b3 span{
+	display: block;
+}
+.u2 li:hover .b2 {
+	background: url(../imgs/bar_newhover.png) 0 -720px no-repeat;
+	background-color: #555;
+}
+.u2 li:hover .b3 {
+	background: url(../imgs/bar_newhover.png) 0 -753px no-repeat;
+	background-color: #555;
+}
+.u2 li:hover .b4 {
+	background: url(../imgs/bar_newhover.png) 0 -521px no-repeat;
+}
+/* js侧边购物车显示 */
+.sideCar{
+	right: 35px;
+    left: inherit;
+    top: 126.979px;
+    position: fixed;
+    display: none;
+	width: 510px;
+	z-index: 1000;
+}
+.car-box{
+	border-top: 1px solid #ddd;
+    border: 1px solid #ddd;
+    padding: 15px;
+    padding-top: 25px;
+}
+.car-box p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}

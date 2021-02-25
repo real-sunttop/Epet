@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车-E宠商城</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/shopping.css">
+	</head>
+	<body>
+		<!-- 头部顶端 -->
+		<div class="header-top">
+			<div id="wrap">
+				<div class="header-top-left">
+					<a href="EpetsIndex.html">E宠首页</a>
+					<span>送至：</span>
+					<div class="area">
+						<p>重庆</p><i></i>
+						<!-- 二级菜单 -->
+						<div class="placeBox">
+							<ul class="place-header clearfix">
+								<li class="color1"><a href="#">重庆</a></li>
+								<li><a href="#">请选择</a></li>
+							</ul>
+							<div class="place-content">
+								<div class="north padd">
+									<span>华北：</span>
+									<a href="#">北京</a>
+									<a href="#">天津</a>
+									<a href="#">河北</a>
+									<a href="#">山西</a>
+									<a href="#">内蒙古</a>
+								</div>
+								<div class="east padd">
+									<span>华东：</span>
+									<a href="#">上海</a>
+									<a href="#">江苏</a>
+									<a href="#">浙江</a>
+									<a href="#">安徽</a>
+									<a href="#">福建</a>
+									<a href="#">山东</a>
+								</div>
+								<div class="south padd">
+									<span>华南：</span>
+									<a href="#">广东</a>
+									<a href="#">广西</a>
+									<a href="#">海南</a>
+								</div>
+								<div class="cen padd">
+									<span>华中：</span>
+									<a href="#">江西</a>
+									<a href="#">河南</a>
+									<a href="#">湖南</a>
+									<a href="#">湖北</a>
+								</div>
+								<div class="westSouth padd">
+									<span>西南：</span>
+									<a href="#" class="show4">重庆</a>
+									<a href="#">四川</a>
+									<a href="#">贵州</a>
+									<a href="#">云南</a>
+									<a href="#">西藏</a>
+								</div>
+								<div class="westNorth padd">
+									<span>西北：</span>
+									<a href="#">陕西</a>
+									<a href="#">甘肃</a>
+									<a href="#">青海</a>
+									<a href="#">宁夏</a>
+									<a href="#">新疆</a>
+								</div>
+								<div class="eastNorth padd">
+									<span>东北：</span>
+									<a href="#">辽宁</a>
+									<a href="#">吉林</a>
+									<a href="#">黑龙江</a>
+								</div>
+								<div class="other padd">
+									<span>其他：</span>
+									<a href="#">香港</a>
+									<a href="#">澳门</a>
+									<a href="#">台湾</a>
+									<a href="#">钓鱼岛</a>
+									<a href="#">南沙群岛</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<a href="#">E宠就是正品</a>
+				</div>
+				<div class="header-top-right"></div>
+			</div>
+		</div>
+		<!-- 头部底端 -->
+		<div class="header-bot clearfix">
+			<div id="wrap">
+				<div class="logo2">
+					<a href=""><img src="imgs/cart-logo.png"></a>
+				</div>
+				<span>购物车</span>
+				<form action="">
+					<input type="text">
+					<button type="button">搜索</button>
+				</form>
+			</div>
+		</div>
+		<!-- 购物车 -->
+		<div class="shop-cart clearfix">
+			<div id="wrap">
+				<div class="bigbox clearfix"></div>
+				<div class="clear">
+					<div class="contentBox"></div>
+					<div class="saleBox">
+						<div>
+							<ul class="sale-nav clearfix">
+								<li class="border-b" name="l1">购满19.90</li>
+								<li name="l1">购满79.00</li>
+								<li name="l1">购满169.00</li>
+								<li name="l1">购满399.00</li>
+								<li name="l1">清仓换购</li>
+							</ul>
+							<div class="hg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="end4"></div>
+		<div id="side3"></div>
+		<!-- js -->
+		<script src="jquery/jquery.js"></script>
+		<script src="js/cookie.js"></script>
+		<script src="js/ajax.js"></script>
+		<script src="js/shopping.js"></script>
+		<script src="js/shoppingHeader.js"></script>
+		<script>
+			$("#end4").load("indexFooter.html")
+			$("#side3").load("sideBox.html")
+		</script>
+	</body>
+</html>
