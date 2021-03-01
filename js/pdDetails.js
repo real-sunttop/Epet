@@ -480,7 +480,7 @@ box.onclick=function(e){
 	}
     //判断点击的对象是否为加入购物车按钮
     if(target.innerHTML=="加入购物车"){
-        //获取localStorage中的cartList3
+        //获取localStorage中的cartList1
         var cartList=localStorage.getItem("cartList1")
         //判断当前获取的cartList是否存在
         if(cartList){

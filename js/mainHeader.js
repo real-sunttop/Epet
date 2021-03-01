@@ -100,7 +100,7 @@ function show2(){
     }
 }
 
-//统计所选商品种类和价格
+//统计所选商品种类
 function total2(){
     var num=0 //所选商品种类
     //遍历cartList数组对象
